@@ -6,20 +6,37 @@ tags:
   - thiết lập
 published: true
 ---
+
 # Thiết lập hệ thống
 
 Khu vực cấu hình các tham số chung liên quan đến website và doanh nghiệp của bạn. Những thông tin cần điền như sau:
 
 ## Thông tin chung
 
-1. **Tên website** Nhập tên thường gọi của website. Được hiển thị tại các trang trên website _(ví dụ: OSD.VN)_
-2. **Chủ sở hữu** Nhập tên cá nhân/ công ty chủ sở hữu website, trường này sẽ hiển thị cuối trang website như hình đính kèm bên dưới _(ví dụ: Công ty TNHH OSD.VN)_
-3. **Khẩu hiệu** Là một câu văn ngắn chứa đựng thông điệp mô tả tính chất của một thương hiệu. Thường diễn tả một lời hứa, giá trị cốt lõi, hướng phát triển sản phẩm của công ty hay chính là “khẩu hiệu tiếp thị” của các doanh nghiệp.
-4. **Địa chỉ** Thông tin này thường xuất hiện tại chân trang, trang thông tin liên hệ và 1 số email gửi cho khách hàng. 
-5. **E-mail** Địa chỉ email dùng để nhận thông tin giao tiếp với người sử dụng.
-6. **Điện thoại** Sẽ hiển thị tại chân trang và trang liên hệ.
-7. **Hotline bán hàng** Hiển thị số hotline bán hàng của công ty/văn phòng trên trang liên hệ của website, nhằm người dùng có thể liên hệ với công ty/văn phòng để được tư vấn và sử dụng dịch vụ
-8. **Hotline hỗ trợ** Hiển thị số hotline hỗ trợ của công ty/văn phòng trên trang liên hệ của website, nhằm người dùng có thể liên hệ với công ty/văn phòng để được tư vấn và sử dụng dịch vụ
+**Tên website**
+
+Tên viết ngắn gọn của website. Được hiển thị tại breadrumbs, chân trang, trang liên hệ,...
+
+**Chủ sở hữu**
+Nhập tên công ty, tổ chức,... thông tin này được hiển thị trong trang liên hệ, chân trang,....
+
+**Khẩu hiệu**
+Hay còn gọi là slogan, thường thông tin này được hiển thị cạnh logo, phụ thuộc vào từng giao diện sẽ có khẩu hiệu hay không có
+
+**Địa chỉ**
+Thông tin địa chỉ của doanh nghiệp, sẽ hiển thị tại chân trang, trang liên hệ.
+
+**E-mail**
+Dùng để nhận các email được từ trang liên hệ, các form đăng ký,... Khi có nhiều email thì cần nhập ngăn cách bằng dấu chấm phẩy (;)
+
+**Điện thoại**
+Điện thoại liên hệ chung của doanh nghiệp
+
+**Hotline bán hàng**
+Hotline dùng cho việc trả lời tư vấn bán hàng
+
+**Hotline hỗ trợ**
+Hotline dùng cho việc giải đáp thắc mắc và hỗ trợ kỹ thuật với người dùng đã mua sản phẩm và dịch vụ của bạn
 
 ## Địa phương
 
@@ -34,10 +51,38 @@ Khi chọn là English, tại trang admin sẽ hiển thị toàn bộ giao di�
 
 Khi chọn là Tiếng Việt, website sẽ hiển thị toàn bộ giao diện và nội dung quản trị viên nhìn thấy là ngôn ngữ tiếng Việt
 
+## Nghiệp vụ đặc thù
+
+**Hình thức kinh doanh chính** 
+Sẽ chủ yếu là việc hiển thị sản phẩm/ dịch vụ/ khóa học với những tình huống giao tiếp xuất hiện các nhãn đối tượng của Mkmate.
+
+**Hiển thị giá bán**
+Sẽ hiển thị giá của sản phẩm/ dịch vụ trên web.
+
+**Cho phép đánh giá dịch vụ**
+Tắt/ bật chức năng đánh giá dịch vụ khi xem chi tiết.
+
+**Theo dõi người dùng trực tuyến**
+Hệ thống sử dụng bộ theo dõi trực tuyến của sản phẩm (không nên dùng khi bạn có Google Analytics được tích hợp). Điều này sẽ gây ra cho cơ sở dữ liệu tăng dung lượng nhanh chóng khiến toàn bộ website bị chậm. 
+
 ## Bảo mật hệ thống
 
-**Chế độ bảo trì** Khi chọn là **Bật** hệ thống hiển thị 1 thông báo website ở chế độ bảo trì, không xem được các thông tin đang có trên website. Người dùng quản trị sau đăng nhập, vẫn thấy website hoạt động như bình thường.
+**Dùng captcha khi đăng nhập**
+Chống tấn công brute force tại màn hình đăng nhập khu vực quản trị
+
+**Cấm sử dụng chuột phải**
+Khi sử dụng chức năng này, người xem website sẽ không thể click phải chuột cũng như thực hiện copy nội dung có trên website.
+
+**Chế độ bảo trì**
+Khi chọn là **Bật** hệ thống hiển thị 1 thông báo website ở chế độ bảo trì, không xem được các thông tin đang có trên website. Người dùng quản trị sau đăng nhập, vẫn thấy website hoạt động như bình thường.
+
+**Chức năng quên mật khẩu**
+Cho phép người quản trị dùng email để tạo lại mật khẩu mới. Chức năng này sẽ bị tắt tự động khi hệ thống phát hiện đang có tấn công.
+
+**Chế độ lập trình**
+Chức năng dành cho lập trình viên
+
+**Chuỗi mã hóa**
+Chuỗi khóa bí mật sẽ được sử dụng để mã hóa thông tin cá nhân khi xử lý các đơn đặt hàng
 
 Nhấn chọn **Lưu** để hoàn tất.
-
-**Chú ý**: cần nhập nội dung tiếng Anh và nội dung tiếng Việt cho các trường tương ứng (nếu có)
