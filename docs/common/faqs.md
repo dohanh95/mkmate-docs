@@ -1,12 +1,19 @@
 ---
 title: Câu hỏi thường gặp
-tags: [faqs, câu hỏi thường gặp, SEO]
+tags:
+  - faqs
+  - câu hỏi thường gặp
+  - SEO
+published: true
 ---
 # Quản lý câu hỏi thường gặp
 Tính năng này được biết đến nhiều vì lợi ích SEO, được xuất hiện trong tin bài, nhóm sản phẩm, bài dịch vụ,...
 
 ## Thêm mới câu hỏi thường gặp
 Tại box "Câu hỏi thường gặp" trong từng trang, bạn có thể bấm nút **Thêm**
+
+Những thông tin cần điền như sau:
+
 ![faq.jpg](img/faq.jpg)
 
 **Tiêu đề**
