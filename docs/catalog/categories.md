@@ -3,8 +3,9 @@ slug: categories
 sidebar_position: 10
 title: Quản lý Nhóm và danh mục
 sidebar_label: Quản lý nhóm
+published: true
 ---
-# Quản lý chuyên mục tin bài
+# Chuyên mục tin bài
 
 ## Thêm chuyên mục tin bài
 
